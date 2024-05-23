@@ -130,7 +130,7 @@ function Cart() {
                         <div className="flex gap-8 bg-sky-400 py-3 px-8 text-xl font-semibold">
 
                             <h1>Product-3:</h1>
-                            <p>{state.count3} X 300 ={state.count2 * 300}</p>
+                            <p>{state.count3} X 300 ={state.count3 * 300}</p>
 
                             {/* setTotal(state.count*100) */}
                         </div>
